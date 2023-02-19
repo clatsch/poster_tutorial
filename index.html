@@ -452,10 +452,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_neues_dokument_erstellen">Neues Dokument erstellen</a></li>
 <li><a href="#_bild_herunterladen">Bild herunterladen</a></li>
 <li><a href="#_maske_erstellen">Maske erstellen</a></li>
+<li><a href="#_hintergrundfarbe_hinzufügen">Hintergrundfarbe hinzufügen</a></li>
+<li><a href="#_brushes_pinsel">Brushes (Pinsel)</a></li>
+<li><a href="#_ebene_verformen">Ebene Verformen</a></li>
+<li><a href="#_schatten_hinzufügen">Schatten hinzufügen</a></li>
+<li><a href="#_textur_hinzufügen">Textur hinzufügen</a></li>
+<li><a href="#_fahne_oder_logo_was_auch_immer_du_möchtest_im_rauch_platzieren">Fahne (oder Logo, was auch immer du möchtest) im Rauch platzieren</a></li>
+<li><a href="#_zusatz_color_lookup_hinzufügen">Zusatz: Color-Lookup hinzufügen</a></li>
+<li><a href="#_text_hinzufügen">Text hinzufügen</a></li>
+<li><a href="#_datei_exportieren">Datei exportieren</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>In diesem Tutorial geht es darum, ein Film-Poster zu gestalten. Hierzu musst du ein Bild von dir selbst nehmen in einer coolen Super-Held/-in Position nehmen.</p>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="_neues_dokument_erstellen">Neues Dokument erstellen</h2>
 <div class="sectionbody">
@@ -487,7 +503,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Das Objekt wird ausgewählt, allerdings ist es gut möglich, dass Photoshop dies nicht perfekt macht (weil es sehr vom Hintergrund abhängt).</p>
 </div>
 <div class="paragraph">
-<p>In diesem Beispiel fhelt ein Schuh sowie die rechte Hand.</p>
+<p>In diesem Beispiel fehlt ein Schuh sowie die rechte Hand.</p>
 </div>
 </div>
 </div>
@@ -503,22 +519,184 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="paragraph">
-<p>Die Ebene hat nun zusätzlich eine Maske welche bearbeitet werden kann. Schwarz bedeutet, dass die Pixel maskiert sind, also "versteckt" und weiss, dass die Pixel sichtbar sind.</p>
+<p>Die Ebene hat nun zusätzlich eine Maske, welche bearbeitet werden kann. Schwarz bedeutet, dass die Pixel maskiert sind, also "versteckt" und weiss, dass die Pixel sichtbar sind.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="../Tutorial%20Rainbow/images/mask" alt="mask">
+<img src="images/mask.png" alt="mask">
 </div>
 </div>
 <div class="paragraph">
-<p>Dies bedeutet, dass die Maske mit dem <code>Pinselwerkzeug (B)</code> bearbeitet werden kann.</p>
+<p>Dies bedeutet, dass die Maske z.B. auch mit dem <code>Pinselwerkzeug (B)</code> bearbeitet werden kann. Am besten öffnet man hierzu die Maske mit einem Doppelklick. Anschliessend kann die Maske angepasst werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/editMask.gif" alt="editMask">
+</div>
+</div>
+<div class="paragraph">
+<p>Das Pinselwerkzeug kann mit einem Rechtsklick angepasst werden (Härte, Grösse). Sobald du mit dem Resultat zufrieden bist, kanns du mit OK zurück zum Hauptdokument gelangen.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hintergrundfarbe_hinzufügen">Hintergrundfarbe hinzufügen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Das Poster soll eine Hintergrundfarbe haben&#8230;&#8203; Dazu muss eine neue Ebene mit einer Farbfüllung erstellt werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/createSolid.gif" alt="createSolid">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_brushes_pinsel">Brushes (Pinsel)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Jetzt ist es Zeit den Smoke-Effekt hinzuzufügen. Hierzu kann man in Photoshop sogenannte Brushes (Pinsel) einsetzten. Standartmässig sind gewisse Brushes schon installiert, allerdings empfiehlt es sich hier einen Smoke-Brush-Set herunterzuladen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.brusheezy.com/free/smoke">Brusheezy Smoke Brushes</a> &#8594;
+<a href="https://www.brusheezy.com/brushes/58094-free-smoke-photoshop-brushes">Smoke Brush 58094</a></p>
+</div>
+<div class="paragraph">
+<p>Die Datei muss heruntergeladen und entzippt werden. Anschliessend kann man den Set in Photoshop importieren:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/importBrush.gif" alt="importBrush">
+</div>
+</div>
+<div class="paragraph">
+<p>Bevor der Brush eingesetzt werden kann, muss eine neue Ebene unterhalb des Bildes erstellt werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/createLayer.gif" alt="createLayer">
+</div>
+</div>
+<div class="paragraph">
+<p>Auf der neu erstellten Ebene kann nun der Smoke-Effect in der gewünschten Farbe gezeichnet werden. In diesem Beispiel mit weiss. Doch bevor das gemacht wird, muss das Bild verkleinert werden. Hierzu mit <code>Ctrl+T</code> (Windows) bzw. <code>Cmd+T</code> (macOS) das Bild skalieren. Die Grösse des Brushes kann mit einem Rechtsklick &#8594; Grösse angepasst werden. Ausserdem lässt sich in dem Optionen-Fenster des Brushes auch die Ausrichtung definieren.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/drawSmoke.gif" alt="drawSmoke">
+</div>
+</div>
+<div class="paragraph">
+<p>Im nächsten Schritt wird die Ebene mit dem Rauch dupliziert (<code>Ctrl+J</code> / <code>Cmd+J</code>) und transformiert (<code>Ctrl+T</code> / <code>Cmd+T</code>). Damit die Proportionen überschrieben werden können, muss zusätzlich die <code>Shift</code>-Taste gedrückt werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/addFloor.gif" alt="addFloor">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ebene_verformen">Ebene Verformen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Während die Ebene immer noch im Transformieren-Modus ist, kann mit einem Rechtsklick die Option "Verformen" ausgewählt werden. Nun kann die Ebene einfach verformt werden, um so einen Effekt zu kreieren, als würde sich die Figur auf einem runden Boden befinden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/warp.gif" alt="warp">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_schatten_hinzufügen">Schatten hinzufügen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Es gibt verschiedene Möglichkeiten einen Schatten hinzuzufügen. In diesem Beispiel wird ein Schatte mit dem Brush hinzugefügt (auf einer neuen Ebene) und anschliessend transformiert (<code>Ctrl+T</code> / <code>Cmd+T</code>). Die Deckkraft der Ebene wird dann reduziert und anschliessend die gesamte Ebene dupliziert und verschoben.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/addShadow.gif" alt="addShadow">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_textur_hinzufügen">Textur hinzufügen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die <a href="https://unsplash.com/photos/PzhmEp_aDU4">Textur</a> kann hier heruntergeladen soll über das ganze Bild gezogen werden.</p>
+</div>
+<div class="paragraph">
+<p>Anschliessend kann das Mischmodus (Blending-Mode) zu <code>Negativ multiplizieren</code> (Screen) und die Deckkraft zu ungefähr 35% geändert werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/addTexture.gif" alt="addTexture">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fahne_oder_logo_was_auch_immer_du_möchtest_im_rauch_platzieren">Fahne (oder Logo, was auch immer du möchtest) im Rauch platzieren</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In diesem Beispiel wird eine Schweizerfahne im Hintergrund platziert. Die Fahne muss genau über dem Hintergrundrauch sein um anschliessend eine Schnittmaske zu erstellen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/addFlag.gif" alt="addFlag">
+</div>
+</div>
+<div class="paragraph">
+<p>TIPP: deaktiviere die Automatische Auswahl damit Photoshop nicht automatisch eine Ebene auswählt</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/automaticSelection.png" alt="automaticSelection">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zusatz_color_lookup_hinzufügen">Zusatz: Color-Lookup hinzufügen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Um die Farbe und den "Look" des Posters zu verändern, kann eine Color-Lookup Ebene hinzugefügt werden.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/colorLookup.gif" alt="colorLookup">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_text_hinzufügen">Text hinzufügen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Mit dem Text-Werkzeug lassen sich Textfelder hinzufügen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/addText.gif" alt="addText">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_datei_exportieren">Datei exportieren</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Wenn alles abgeschlossen ist, kann das Bild via <code>Datei &#8594; Exportieren &#8594; Exportieren als&#8230;&#8203;</code> exportiert werden.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-02-19 16:52:36 +0100
+Last updated 2023-02-19 18:45:44 +0100
 </div>
 </div>
 </body>
