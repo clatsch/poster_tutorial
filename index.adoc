@@ -6,8 +6,13 @@ Cla Tschenett <cla.tschenett@ibw.ch>
 :icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
-In diesem Tutorial geht es darum, ein Film-Poster zu gestalten. Hierzu musst du ein Bild von dir selbst nehmen in einer coolen Super-Held/-in Position nehmen.
+In diesem Tutorial geht es darum, ein Film-Poster mit Hilfe von Adobe Photoshop zu gestalten. Dafür benötigst du zunächst ein passendes Bild von dir selbst in einer coolen Pose, welches du als Ausgangspunkt für das Design des Posters verwenden wirst.
 
+Im Folgenden wirst du lernen, wie du das Bild bearbeitest, um es für den Einsatz auf dem Poster vorzubereiten. Dabei werden verschiedene Werkzeuge und Funktionen von Photoshop zum Einsatz kommen, wie beispielsweise das Freistellungswerkzeug, das Ebenen-Panel und verschiedene Filtereffekte.
+
+Ziel des Tutorials ist es, dass du am Ende ein beeindruckendes Film-Poster gestaltet hast, das dein Bild in Szene setzt und die Aufmerksamkeit potenzieller Zuschauer auf sich zieht.
+
+image::images/poster.png[]
 
 
 == Neues Dokument erstellen
