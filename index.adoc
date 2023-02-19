@@ -11,13 +11,16 @@ In diesem Tutorial geht es darum, ein Film-Poster zu gestalten. Hierzu musst du 
 
 
 == Neues Dokument erstellen
-für diese Übung erstellen wir ein neues Dokument mit 300x300mm und 300ppi
+Für diese Übung erstellen wir ein neues Dokument mit 300x300mm und 300ppi
 
 image::images/new_document.png[]
 
-== Bild herunterladen
+== Bild importieren und freistellen
 
-https://www.pexels.com/photo/photo-of-boy-using-vr-headset-4144098/[Bild herunterladen und im Photoshop öffnen]
+Erstelle ein Bild von dir selbst welches du dann in Photoshop importieren kannst.
+
+
+(In diesem Beispiel wird mit einem Stockbild gearbeitet. https://www.pexels.com/photo/photo-of-boy-using-vr-headset-4144098/[Bild herunterladen])
 
 Als erstes musst du das Objekt welches du freistellen möchtest auswählen. Dies kann z.B. mit dem `Objektauswahlwerkzeug (W)` gemacht werden.
 
@@ -27,7 +30,7 @@ Das Objekt wird ausgewählt, allerdings ist es gut möglich, dass Photoshop dies
 
 In diesem Beispiel fehlt ein Schuh sowie die rechte Hand.
 
-== Maske erstellen
+== Maske erstellen und bearbeiten
 
 Um die Auswahl zu bearbeiten, kann eine Maske unter Ebenen erstellt werden.
 
