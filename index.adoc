@@ -1,6 +1,6 @@
 = Poster Tutorial
 Cla Tschenett <cla.tschenett@ibw.ch>
-1.0 - 19.02.2023
+1.0 - 19.02.2024
 :toc:
 :toc-title: Inhaltsverzeichnis
 :icons: font
@@ -11,6 +11,8 @@ In diesem Tutorial geht es darum, ein Film-Poster mit Hilfe von Adobe Photoshop 
 Im Folgenden wirst du lernen, wie du das Bild bearbeitest, um es für den Einsatz auf dem Poster vorzubereiten. Dabei werden verschiedene Werkzeuge und Funktionen von Photoshop zum Einsatz kommen, wie beispielsweise das Freistellungswerkzeug, das Ebenen-Panel und verschiedene Filtereffekte.
 
 Ziel des Tutorials ist es, dass du am Ende ein beeindruckendes Film-Poster gestaltet hast, das dein Bild in Szene setzt und die Aufmerksamkeit potenzieller Zuschauer auf sich zieht.
+
+Viel Erfolg!
 
 image::images/poster.png[]
 
