@@ -98,7 +98,7 @@ image::images/addShadow.gif[]
 
 == Textur hinzufügen
 
-Die https://unsplash.com/photos/PzhmEp_aDU4[Texturwindow=_blank] soll über das ganze Bild gezogen werden.
+Die https://unsplash.com/photos/PzhmEp_aDU4[Textur, window=_blank] soll über das ganze Bild gezogen werden.
 
 Anschliessend kann das Mischmodus (Blending-Mode) zu `Negativ multiplizieren` (Screen) und die Deckkraft zu ungefähr 35% geändert werden.
 
