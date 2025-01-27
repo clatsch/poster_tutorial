@@ -129,7 +129,7 @@ image::images/addText.gif[]
 
 == Datei exportieren
 
-Wenn alles abgeschlossen ist, kann das Bild via `Datei -> Exportieren -> Exportieren als...` exportiert werden.
+Wenn alles abgeschlossen ist, kann das Bild via `Datei -> Exportieren -> Exportieren als...` als (beispielsweise für diese Übung) .jpg exportiert werden.
 
 
 
